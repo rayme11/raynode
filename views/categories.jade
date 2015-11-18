@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  h2#maintitle Where shall we go today?
+  p
+   | If I could, I would spend all my time on  
+   a(href="http://www.bing.com") bing.com 
+   | and keep learning good Quality process improvoment stuff
+   
+   div
+    ul
+     each val, index in categories
+      li= index + ': ' + val.url
+  
+  
