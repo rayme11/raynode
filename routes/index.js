@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'This is a test, to Express' });
+  res.render('index', { title: 'This is a test, to Express and azure' });
 });
 
 module.exports = router;
